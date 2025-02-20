@@ -30,6 +30,20 @@ An iOS application that shows the top 100 coins from the CoinRanking API, demons
 - **Hybrid UI**: The main app uses SwiftUI (`@main struct`), but coin lists and detail views use UIKit. We embed these UIKit controllers in SwiftUI using `UIViewControllerRepresentable`.
 - **Performance Chart**: Used SwiftUI’s `Charts` framework. For older iOS versions, consider a 3rd-party chart library.
 
+## Screenshots
+
+Below are some sample screenshots showcasing the **Top 100 Coins** screen and the **Favorites** screen:
+
+### Top 100 Coins
+
+![Top 100 Coins](screenshots/highest.png)
+
+### Favorites Screen
+
+![Favorites Screen](screenshots/favorites.png)
+
+> **Note**: Place your actual screenshot images under a `screenshots` folder in your repository (e.g., `screenshots/top_coins.png`, `screenshots/favorites_screen.png`) and ensure the file names match the Markdown references above.
+
 ## Tests
 
 Run the included unit tests (in `CryptoAppTests.swift`) via **Product → Test** or **Cmd + U** in Xcode.
