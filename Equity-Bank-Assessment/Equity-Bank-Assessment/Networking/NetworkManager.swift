@@ -15,7 +15,7 @@ class NetworkManager {
     let baseURL = "https://api.coinranking.com/v2"
     
     // Replace with your real API key:
-    let apiKey = "YOUR_COINRANKING_API_KEY"
+    let apiKey = "coinrankingc3ee16bb1b9f8c3c6fa29c69ce315e725e571a87375c5062"
     
     func request<T: Decodable>(endpoint: String,
                                queryItems: [URLQueryItem] = [],
