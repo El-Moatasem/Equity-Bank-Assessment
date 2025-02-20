@@ -43,6 +43,20 @@ Below are some sample screenshots showcasing the **Top 100 Coins** screen and th
 <img src="docs/images/favorites.png" alt="Favorites Screen" width="300"/>
 
 
+### Swipe for favorites in Home Page
+
+<img src="docs/images/swipe_favorite.png" alt="Top 100 Coins" width="300"/>
+
+### Details from Home Page
+
+<img src="docs/images/details_home.png" alt="Favorites Screen" width="300"/>
+
+
+### Details from Favorites Page
+
+<img src="docs/images/details_favorite.png" alt="Favorites Screen" width="300"/>
+
+
 ## Tests
 
 Run the included unit tests (in `CryptoAppTests.swift`) via **Product → Test** or **Cmd + U** in Xcode.
