@@ -103,13 +103,6 @@
 		995C58042D677A3E00188171 = {
 			isa = PBXGroup;
 			children = (
-				99D394692D67CCCB0088AD39 /* Extensions */,
-				99D3946B2D67CCCB0088AD39 /* Models */,
-				99D3946C2D67CCCB0088AD39 /* Network */,
-				99D3946D2D67CCCB0088AD39 /* Persistence */,
-				99D3946E2D67CCCB0088AD39 /* SwiftUIComponents */,
-				99D3946F2D67CCCB0088AD39 /* ViewModels */,
-				99D394702D67CCCB0088AD39 /* Views */,
 				995C580F2D677A3E00188171 /* Equity-Bank-Assessment */,
 				995C58202D677A4100188171 /* Equity-Bank-AssessmentTests */,
 				995C582A2D677A4200188171 /* Equity-Bank-AssessmentUITests */,
@@ -127,55 +120,6 @@
 				995C58272D677A4200188171 /* Equity-Bank-AssessmentUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		99D394692D67CCCB0088AD39 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		99D3946B2D67CCCB0088AD39 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		99D3946C2D67CCCB0088AD39 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		99D3946D2D67CCCB0088AD39 /* Persistence */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Persistence;
-			sourceTree = "<group>";
-		};
-		99D3946E2D67CCCB0088AD39 /* SwiftUIComponents */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SwiftUIComponents;
-			sourceTree = "<group>";
-		};
-		99D3946F2D67CCCB0088AD39 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		99D394702D67CCCB0088AD39 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		B7F78D9F457A430E9635EAC7 /* Pods */ = {
