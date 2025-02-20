@@ -36,11 +36,11 @@ Below are some sample screenshots showcasing the **Top 100 Coins** screen and th
 
 ### Top 100 Coins
 
-![Top 100 Coins](screenshots/highest.png)
+![Top 100 Coins](docs/images/highest.png)
 
 ### Favorites Screen
 
-![Favorites Screen](screenshots/favorites.png)
+![Favorites Screen](docs/images/favorites.png)
 
 > **Note**: Place your actual screenshot images under a `screenshots` folder in your repository (e.g., `screenshots/top_coins.png`, `screenshots/favorites_screen.png`) and ensure the file names match the Markdown references above.
 
