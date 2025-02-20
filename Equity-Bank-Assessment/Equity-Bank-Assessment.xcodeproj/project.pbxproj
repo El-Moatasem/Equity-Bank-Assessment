@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A15089CE586DAADB3B19DECF /* Pods_Equity_Bank_AssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B649A3897D1A99977E64EF7 /* Pods_Equity_Bank_AssessmentTests.framework */; };
+		BB6490E324168E81AA086A14 /* Pods_Equity_Bank_Assessment_Equity_Bank_AssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE15813D7C7F5B71842E8626 /* Pods_Equity_Bank_Assessment_Equity_Bank_AssessmentUITests.framework */; };
+		E9525DB707FFDC9067069657 /* Pods_Equity_Bank_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0984E71F01C5626AD1088317 /* Pods_Equity_Bank_Assessment.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		995C581E2D677A4100188171 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,24 +30,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		069E5144CB63084024291977 /* Pods-Equity-Bank-Assessment-Equity-Bank-AssessmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Equity-Bank-Assessment-Equity-Bank-AssessmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-Equity-Bank-Assessment-Equity-Bank-AssessmentUITests/Pods-Equity-Bank-Assessment-Equity-Bank-AssessmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0984E71F01C5626AD1088317 /* Pods_Equity_Bank_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Equity_Bank_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E21DA405654A633D9747380 /* Pods-Equity-Bank-AssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Equity-Bank-AssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-Equity-Bank-AssessmentTests/Pods-Equity-Bank-AssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B649A3897D1A99977E64EF7 /* Pods_Equity_Bank_AssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Equity_Bank_AssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86985E019A77CCDE51C305C4 /* Pods-Equity-Bank-Assessment-Equity-Bank-AssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Equity-Bank-Assessment-Equity-Bank-AssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Equity-Bank-Assessment-Equity-Bank-AssessmentUITests/Pods-Equity-Bank-Assessment-Equity-Bank-AssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8927635991AA10E2C00813D8 /* Pods-Equity-Bank-Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Equity-Bank-Assessment.debug.xcconfig"; path = "Target Support Files/Pods-Equity-Bank-Assessment/Pods-Equity-Bank-Assessment.debug.xcconfig"; sourceTree = "<group>"; };
 		995C580D2D677A3E00188171 /* Equity-Bank-Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Equity-Bank-Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		995C581D2D677A4100188171 /* Equity-Bank-AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Equity-Bank-AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		995C58272D677A4200188171 /* Equity-Bank-AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Equity-Bank-AssessmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF295ECF34E03674517A619 /* Pods-Equity-Bank-AssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Equity-Bank-AssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-Equity-Bank-AssessmentTests/Pods-Equity-Bank-AssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5C718F81BC9D183FBB4163A /* Pods-Equity-Bank-Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Equity-Bank-Assessment.release.xcconfig"; path = "Target Support Files/Pods-Equity-Bank-Assessment/Pods-Equity-Bank-Assessment.release.xcconfig"; sourceTree = "<group>"; };
+		FE15813D7C7F5B71842E8626 /* Pods_Equity_Bank_Assessment_Equity_Bank_AssessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Equity_Bank_Assessment_Equity_Bank_AssessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		995C580F2D677A3E00188171 /* Equity-Bank-Assessment */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "Equity-Bank-Assessment";
 			sourceTree = "<group>";
 		};
 		995C58202D677A4100188171 /* Equity-Bank-AssessmentTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "Equity-Bank-AssessmentTests";
 			sourceTree = "<group>";
 		};
 		995C582A2D677A4200188171 /* Equity-Bank-AssessmentUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "Equity-Bank-AssessmentUITests";
 			sourceTree = "<group>";
 		};
@@ -52,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9525DB707FFDC9067069657 /* Pods_Equity_Bank_Assessment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15089CE586DAADB3B19DECF /* Pods_Equity_Bank_AssessmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6490E324168E81AA086A14 /* Pods_Equity_Bank_Assessment_Equity_Bank_AssessmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73B94E5CB77F7BD47BE17158 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0984E71F01C5626AD1088317 /* Pods_Equity_Bank_Assessment.framework */,
+				FE15813D7C7F5B71842E8626 /* Pods_Equity_Bank_Assessment_Equity_Bank_AssessmentUITests.framework */,
+				7B649A3897D1A99977E64EF7 /* Pods_Equity_Bank_AssessmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		995C58042D677A3E00188171 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +113,8 @@
 				995C58202D677A4100188171 /* Equity-Bank-AssessmentTests */,
 				995C582A2D677A4200188171 /* Equity-Bank-AssessmentUITests */,
 				995C580E2D677A3E00188171 /* Products */,
+				B7F78D9F457A430E9635EAC7 /* Pods */,
+				73B94E5CB77F7BD47BE17158 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +128,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B7F78D9F457A430E9635EAC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8927635991AA10E2C00813D8 /* Pods-Equity-Bank-Assessment.debug.xcconfig */,
+				E5C718F81BC9D183FBB4163A /* Pods-Equity-Bank-Assessment.release.xcconfig */,
+				069E5144CB63084024291977 /* Pods-Equity-Bank-Assessment-Equity-Bank-AssessmentUITests.debug.xcconfig */,
+				86985E019A77CCDE51C305C4 /* Pods-Equity-Bank-Assessment-Equity-Bank-AssessmentUITests.release.xcconfig */,
+				6E21DA405654A633D9747380 /* Pods-Equity-Bank-AssessmentTests.debug.xcconfig */,
+				DBF295ECF34E03674517A619 /* Pods-Equity-Bank-AssessmentTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 995C58312D677A4200188171 /* Build configuration list for PBXNativeTarget "Equity-Bank-Assessment" */;
 			buildPhases = (
+				B65A67EB9548141D17D76FA7 /* [CP] Check Pods Manifest.lock */,
 				995C58092D677A3E00188171 /* Sources */,
 				995C580A2D677A3E00188171 /* Frameworks */,
 				995C580B2D677A3E00188171 /* Resources */,
@@ -111,8 +162,6 @@
 				995C580F2D677A3E00188171 /* Equity-Bank-Assessment */,
 			);
 			name = "Equity-Bank-Assessment";
-			packageProductDependencies = (
-			);
 			productName = "Equity-Bank-Assessment";
 			productReference = 995C580D2D677A3E00188171 /* Equity-Bank-Assessment.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 995C58342D677A4200188171 /* Build configuration list for PBXNativeTarget "Equity-Bank-AssessmentTests" */;
 			buildPhases = (
+				B6A6AFB048C91C85D798BC3C /* [CP] Check Pods Manifest.lock */,
 				995C58192D677A4100188171 /* Sources */,
 				995C581A2D677A4100188171 /* Frameworks */,
 				995C581B2D677A4100188171 /* Resources */,
@@ -134,8 +184,6 @@
 				995C58202D677A4100188171 /* Equity-Bank-AssessmentTests */,
 			);
 			name = "Equity-Bank-AssessmentTests";
-			packageProductDependencies = (
-			);
 			productName = "Equity-Bank-AssessmentTests";
 			productReference = 995C581D2D677A4100188171 /* Equity-Bank-AssessmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 995C58372D677A4200188171 /* Build configuration list for PBXNativeTarget "Equity-Bank-AssessmentUITests" */;
 			buildPhases = (
+				2F6E6C7C482E50A96264A3FE /* [CP] Check Pods Manifest.lock */,
 				995C58232D677A4200188171 /* Sources */,
 				995C58242D677A4200188171 /* Frameworks */,
 				995C58252D677A4200188171 /* Resources */,
@@ -157,8 +206,6 @@
 				995C582A2D677A4200188171 /* Equity-Bank-AssessmentUITests */,
 			);
 			name = "Equity-Bank-AssessmentUITests";
-			packageProductDependencies = (
-			);
 			productName = "Equity-Bank-AssessmentUITests";
 			productReference = 995C58272D677A4200188171 /* Equity-Bank-AssessmentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +277,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F6E6C7C482E50A96264A3FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Equity-Bank-Assessment-Equity-Bank-AssessmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B65A67EB9548141D17D76FA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Equity-Bank-Assessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A6AFB048C91C85D798BC3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Equity-Bank-AssessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		995C58092D677A3E00188171 /* Sources */ = {
@@ -390,6 +506,7 @@
 		};
 		995C58322D677A4200188171 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8927635991AA10E2C00813D8 /* Pods-Equity-Bank-Assessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -418,6 +535,7 @@
 		};
 		995C58332D677A4200188171 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C718F81BC9D183FBB4163A /* Pods-Equity-Bank-Assessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,6 +564,7 @@
 		};
 		995C58352D677A4200188171 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E21DA405654A633D9747380 /* Pods-Equity-Bank-AssessmentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +583,7 @@
 		};
 		995C58362D677A4200188171 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF295ECF34E03674517A619 /* Pods-Equity-Bank-AssessmentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +602,7 @@
 		};
 		995C58382D677A4200188171 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069E5144CB63084024291977 /* Pods-Equity-Bank-Assessment-Equity-Bank-AssessmentUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -498,6 +619,7 @@
 		};
 		995C58392D677A4200188171 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86985E019A77CCDE51C305C4 /* Pods-Equity-Bank-Assessment-Equity-Bank-AssessmentUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

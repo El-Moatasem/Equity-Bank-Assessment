@@ -1,0 +1,6 @@
+framework module Pods_Equity_Bank_Assessment {
+  umbrella header "Pods-Equity-Bank-Assessment-umbrella.h"
+
+  export *
+  module * { export * }
+}
