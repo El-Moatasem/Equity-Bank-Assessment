@@ -1,6 +1,6 @@
 # CryptoApp
 
-An iOS application that shows the top 100 coins from the CoinRanking API, demonstrates pagination (20 coins per page), swipe-to-favorite functionality, filtering, a detail screen with chart, and a favorites screen.
+An iOS application that shows the top 100 coins from the CoinRanking API, demonstrates pagination (20 coins per page), swipe-to-favorite functionality, filtering, a detail screen with a chart, and a favorites screen.
 
 ## Requirements
 
@@ -10,26 +10,39 @@ An iOS application that shows the top 100 coins from the CoinRanking API, demons
 
 ## Building and Running
 
-1. Clone or download the repository.
-2. Open the `CryptoApp.xcodeproj` in Xcode.
-3. Replace `YOUR_COINRANKING_API_KEY` in `NetworkManager.swift` with your actual CoinRanking API key.
-4. Build and run on a simulator or device.
+1. Create or open a new SwiftUI iOS project in Xcode.
+2. Copy all of the provided files into your project structure.
+3. Replace `YOUR_COINRANKING_API_KEY` in `NetworkManager.swift` with your CoinRanking API key.
+4. Make sure your iOS Deployment Target is 16.0 or higher (required for SwiftUI Charts).
+5. Build and run the app on a simulator or device.
 
 ## Assumptions / Decisions
 
-- Used `UserDefaults` to store favorites (by coin UUID).
-- Used `UIKit` for the main list views and navigation.
-- Embedded a SwiftUI view for the performance chart in `CoinDetailViewController` using `UIHostingController`.
-- Filtering done in-memory after the data is fetched.
+- Used `UserDefaults` to store favorite coin IDs.
+- The "detail" screen is a UIKit `UIViewController` that uses a SwiftUI `PerformanceChartView` inside a `UIHostingController`.
 - Minimal error handling for demonstration purposes.
+- Filtering is done in-memory after data is fetched.
+- Basic `XCTest` coverage for networking and favorites logic.
 
 ## Challenges & Solutions
 
-- **Pagination**: Handled by modifying the `offset` query parameter (0, 20, 40...).
-- **Performance chart**: Used SwiftUI's `Charts`. If you need to support lower iOS versions, swap to a 3rd party library.
-- **API Key management**: For demonstration, the key is in code. For production, use secure storage or environment variables.
-- **Testing**: Provided some basic unit tests for networking and model logic.
+- **Pagination**: Achieved by incrementing `offset` in 20-coin increments up to 100 coins total.
+- **Hybrid UI**: The main app uses SwiftUI (`@main struct`), but coin lists and detail views use UIKit. We embed these UIKit controllers in SwiftUI using `UIViewControllerRepresentable`.
+- **Performance Chart**: Used SwiftUI’s `Charts` framework. For older iOS versions, consider a 3rd-party chart library.
+
+## Screenshots
+
+Below are some sample screenshots showcasing the **Top 100 Coins** screen and the **Favorites** screen:
+
+### Top 100 Coins
+
+<img src="docs/images/highest.png" alt="Top 100 Coins" width="300"/>
+
+### Favorites Screen
+
+<img src="docs/images/favorites.png" alt="Favorites Screen" width="300"/>
+
 
 ## Tests
 
-Run the included unit tests by selecting `Product -> Test` within Xcode or pressing `Command + U`.
+Run the included unit tests (in `CryptoAppTests.swift`) via **Product → Test** or **Cmd + U** in Xcode.
