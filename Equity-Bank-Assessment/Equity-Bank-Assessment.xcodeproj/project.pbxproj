@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99D394712D67CCCB0088AD39 /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D3946A2D67CCCB0088AD39 /* Untitled.swift */; };
 		A15089CE586DAADB3B19DECF /* Pods_Equity_Bank_AssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B649A3897D1A99977E64EF7 /* Pods_Equity_Bank_AssessmentTests.framework */; };
 		BB6490E324168E81AA086A14 /* Pods_Equity_Bank_Assessment_Equity_Bank_AssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE15813D7C7F5B71842E8626 /* Pods_Equity_Bank_Assessment_Equity_Bank_AssessmentUITests.framework */; };
 		E9525DB707FFDC9067069657 /* Pods_Equity_Bank_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0984E71F01C5626AD1088317 /* Pods_Equity_Bank_Assessment.framework */; };
@@ -40,7 +39,6 @@
 		995C580D2D677A3E00188171 /* Equity-Bank-Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Equity-Bank-Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		995C581D2D677A4100188171 /* Equity-Bank-AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Equity-Bank-AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		995C58272D677A4200188171 /* Equity-Bank-AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Equity-Bank-AssessmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		99D3946A2D67CCCB0088AD39 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
 		DBF295ECF34E03674517A619 /* Pods-Equity-Bank-AssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Equity-Bank-AssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-Equity-Bank-AssessmentTests/Pods-Equity-Bank-AssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		E5C718F81BC9D183FBB4163A /* Pods-Equity-Bank-Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Equity-Bank-Assessment.release.xcconfig"; path = "Target Support Files/Pods-Equity-Bank-Assessment/Pods-Equity-Bank-Assessment.release.xcconfig"; sourceTree = "<group>"; };
 		FE15813D7C7F5B71842E8626 /* Pods_Equity_Bank_Assessment_Equity_Bank_AssessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Equity_Bank_Assessment_Equity_Bank_AssessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,7 +139,6 @@
 		99D3946B2D67CCCB0088AD39 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				99D3946A2D67CCCB0088AD39 /* Untitled.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -404,7 +401,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D394712D67CCCB0088AD39 /* Untitled.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
