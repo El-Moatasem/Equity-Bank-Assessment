@@ -43,8 +43,6 @@ Below are some sample screenshots showcasing the **Top 100 Coins** screen and th
 <img src="docs/images/favorites.png" alt="Favorites Screen" width="300"/>
 
 
-> **Note**: Place your actual screenshot images under a `screenshots` folder in your repository (e.g., `screenshots/top_coins.png`, `screenshots/favorites_screen.png`) and ensure the file names match the Markdown references above.
-
 ## Tests
 
 Run the included unit tests (in `CryptoAppTests.swift`) via **Product → Test** or **Cmd + U** in Xcode.
