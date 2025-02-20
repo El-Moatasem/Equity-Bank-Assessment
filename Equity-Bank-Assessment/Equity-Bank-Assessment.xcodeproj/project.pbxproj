@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		995C581E2D677A4100188171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 995C58052D677A3E00188171 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 995C580C2D677A3E00188171;
+			remoteInfo = "Equity-Bank-Assessment";
+		};
+		995C58282D677A4200188171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 995C58052D677A3E00188171 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 995C580C2D677A3E00188171;
+			remoteInfo = "Equity-Bank-Assessment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		995C580D2D677A3E00188171 /* Equity-Bank-Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Equity-Bank-Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		995C581D2D677A4100188171 /* Equity-Bank-AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Equity-Bank-AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		995C58272D677A4200188171 /* Equity-Bank-AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Equity-Bank-AssessmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		995C580F2D677A3E00188171 /* Equity-Bank-Assessment */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Equity-Bank-Assessment";
+			sourceTree = "<group>";
+		};
+		995C58202D677A4100188171 /* Equity-Bank-AssessmentTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Equity-Bank-AssessmentTests";
+			sourceTree = "<group>";
+		};
+		995C582A2D677A4200188171 /* Equity-Bank-AssessmentUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Equity-Bank-AssessmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		995C580A2D677A3E00188171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995C581A2D677A4100188171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995C58242D677A4200188171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		995C58042D677A3E00188171 = {
+			isa = PBXGroup;
+			children = (
+				995C580F2D677A3E00188171 /* Equity-Bank-Assessment */,
+				995C58202D677A4100188171 /* Equity-Bank-AssessmentTests */,
+				995C582A2D677A4200188171 /* Equity-Bank-AssessmentUITests */,
+				995C580E2D677A3E00188171 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		995C580E2D677A3E00188171 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				995C580D2D677A3E00188171 /* Equity-Bank-Assessment.app */,
+				995C581D2D677A4100188171 /* Equity-Bank-AssessmentTests.xctest */,
+				995C58272D677A4200188171 /* Equity-Bank-AssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		995C580C2D677A3E00188171 /* Equity-Bank-Assessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995C58312D677A4200188171 /* Build configuration list for PBXNativeTarget "Equity-Bank-Assessment" */;
+			buildPhases = (
+				995C58092D677A3E00188171 /* Sources */,
+				995C580A2D677A3E00188171 /* Frameworks */,
+				995C580B2D677A3E00188171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				995C580F2D677A3E00188171 /* Equity-Bank-Assessment */,
+			);
+			name = "Equity-Bank-Assessment";
+			packageProductDependencies = (
+			);
+			productName = "Equity-Bank-Assessment";
+			productReference = 995C580D2D677A3E00188171 /* Equity-Bank-Assessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		995C581C2D677A4100188171 /* Equity-Bank-AssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995C58342D677A4200188171 /* Build configuration list for PBXNativeTarget "Equity-Bank-AssessmentTests" */;
+			buildPhases = (
+				995C58192D677A4100188171 /* Sources */,
+				995C581A2D677A4100188171 /* Frameworks */,
+				995C581B2D677A4100188171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				995C581F2D677A4100188171 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				995C58202D677A4100188171 /* Equity-Bank-AssessmentTests */,
+			);
+			name = "Equity-Bank-AssessmentTests";
+			packageProductDependencies = (
+			);
+			productName = "Equity-Bank-AssessmentTests";
+			productReference = 995C581D2D677A4100188171 /* Equity-Bank-AssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		995C58262D677A4200188171 /* Equity-Bank-AssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995C58372D677A4200188171 /* Build configuration list for PBXNativeTarget "Equity-Bank-AssessmentUITests" */;
+			buildPhases = (
+				995C58232D677A4200188171 /* Sources */,
+				995C58242D677A4200188171 /* Frameworks */,
+				995C58252D677A4200188171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				995C58292D677A4200188171 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				995C582A2D677A4200188171 /* Equity-Bank-AssessmentUITests */,
+			);
+			name = "Equity-Bank-AssessmentUITests";
+			packageProductDependencies = (
+			);
+			productName = "Equity-Bank-AssessmentUITests";
+			productReference = 995C58272D677A4200188171 /* Equity-Bank-AssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		995C58052D677A3E00188171 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					995C580C2D677A3E00188171 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					995C581C2D677A4100188171 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 995C580C2D677A3E00188171;
+					};
+					995C58262D677A4200188171 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 995C580C2D677A3E00188171;
+					};
+				};
+			};
+			buildConfigurationList = 995C58082D677A3E00188171 /* Build configuration list for PBXProject "Equity-Bank-Assessment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 995C58042D677A3E00188171;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 995C580E2D677A3E00188171 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				995C580C2D677A3E00188171 /* Equity-Bank-Assessment */,
+				995C581C2D677A4100188171 /* Equity-Bank-AssessmentTests */,
+				995C58262D677A4200188171 /* Equity-Bank-AssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		995C580B2D677A3E00188171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995C581B2D677A4100188171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995C58252D677A4200188171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		995C58092D677A3E00188171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995C58192D677A4100188171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995C58232D677A4200188171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		995C581F2D677A4100188171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 995C580C2D677A3E00188171 /* Equity-Bank-Assessment */;
+			targetProxy = 995C581E2D677A4100188171 /* PBXContainerItemProxy */;
+		};
+		995C58292D677A4200188171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 995C580C2D677A3E00188171 /* Equity-Bank-Assessment */;
+			targetProxy = 995C58282D677A4200188171 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		995C582F2D677A4200188171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		995C58302D677A4200188171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		995C58322D677A4200188171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Equity-Bank-Assessment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Equity-Bank-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		995C58332D677A4200188171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Equity-Bank-Assessment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Equity-Bank-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		995C58352D677A4200188171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Equity-Bank-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Equity-Bank-Assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Equity-Bank-Assessment";
+			};
+			name = Debug;
+		};
+		995C58362D677A4200188171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Equity-Bank-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Equity-Bank-Assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Equity-Bank-Assessment";
+			};
+			name = Release;
+		};
+		995C58382D677A4200188171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Equity-Bank-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Equity-Bank-Assessment";
+			};
+			name = Debug;
+		};
+		995C58392D677A4200188171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Equity-Bank-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Equity-Bank-Assessment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		995C58082D677A3E00188171 /* Build configuration list for PBXProject "Equity-Bank-Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995C582F2D677A4200188171 /* Debug */,
+				995C58302D677A4200188171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995C58312D677A4200188171 /* Build configuration list for PBXNativeTarget "Equity-Bank-Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995C58322D677A4200188171 /* Debug */,
+				995C58332D677A4200188171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995C58342D677A4200188171 /* Build configuration list for PBXNativeTarget "Equity-Bank-AssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995C58352D677A4200188171 /* Debug */,
+				995C58362D677A4200188171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995C58372D677A4200188171 /* Build configuration list for PBXNativeTarget "Equity-Bank-AssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995C58382D677A4200188171 /* Debug */,
+				995C58392D677A4200188171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 995C58052D677A3E00188171 /* Project object */;
+}
