@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:FavoriteCoinEntity+CoreDataClass.swift">
-   </FileRef>
-   <FileRef
-      location = "group:FavoriteCoinEntity+CoreDataProperties.swift">
-   </FileRef>
-   <FileRef
       location = "group:Equity-Bank-Assessment.xcodeproj">
    </FileRef>
    <FileRef
