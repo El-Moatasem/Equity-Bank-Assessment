@@ -14,7 +14,7 @@ class CoinListViewController: UIViewController {
     private let favoritesVM = FavoritesViewModel()
     
     private let filterSegmentedControl: UISegmentedControl = {
-        let sc = UISegmentedControl(items: ["None", "Highest Price", "Best 24H"])
+        let sc = UISegmentedControl(items: ["All", "Highest Price", "Best 24H"])
         sc.selectedSegmentIndex = 0
         return sc
     }()
