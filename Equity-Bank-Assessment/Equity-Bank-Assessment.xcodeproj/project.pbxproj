@@ -44,9 +44,30 @@
 		FE15813D7C7F5B71842E8626 /* Pods_Equity_Bank_Assessment_Equity_Bank_AssessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Equity_Bank_Assessment_Equity_Bank_AssessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9963BC3F2D67F93800F7B896 /* Exceptions for "Equity-Bank-Assessment" folder in "Equity-Bank-AssessmentTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Persistence/CryptoApp.xcdatamodeld,
+			);
+			target = 995C581C2D677A4100188171 /* Equity-Bank-AssessmentTests */;
+		};
+		9963BC402D67F93800F7B896 /* Exceptions for "Equity-Bank-Assessment" folder in "Equity-Bank-AssessmentUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Persistence/CryptoApp.xcdatamodeld,
+			);
+			target = 995C58262D677A4200188171 /* Equity-Bank-AssessmentUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		995C580F2D677A3E00188171 /* Equity-Bank-Assessment */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9963BC3F2D67F93800F7B896 /* Exceptions for "Equity-Bank-Assessment" folder in "Equity-Bank-AssessmentTests" target */,
+				9963BC402D67F93800F7B896 /* Exceptions for "Equity-Bank-Assessment" folder in "Equity-Bank-AssessmentUITests" target */,
+			);
 			path = "Equity-Bank-Assessment";
 			sourceTree = "<group>";
 		};
@@ -508,6 +529,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Equity-Bank-Assessment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -537,6 +559,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Equity-Bank-Assessment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
